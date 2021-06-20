@@ -151,7 +151,7 @@ REST_FRAMEWORK = {
     ]
 }
 
-# CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = False
 
 
 AUTHENTICATION_BACKENDS = [
@@ -235,5 +235,5 @@ DJRICHTEXTFIELD_CONFIG = {
 }
 
 
-db = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db)
+# db = dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(db)
