@@ -140,7 +140,11 @@ LOGIN_URL = '/login/'
 
 
 CORS_ORIGIN_WHITELIST = [
-    'https://gutsnbraces.herokuapp.com'
+    'https://gutsnbraces.herokuapp.com',
+    'https://gutsnbraces.firebaseapp.com',
+    'https://gutsnbraces.web.app',
+    'http://gutsnbraces.com',
+    'https://gutsnbraces.com'
 ]
 CORS_ALLOW_CREDENTIALS = True
 REST_FRAMEWORK = {
