@@ -213,30 +213,30 @@ REST_KNOX = {
 }
 
 
-# DJRICHTEXTFIELD_CONFIG = {
-#     'js': ['//cdn.ckeditor.com/4.14.0/standard/ckeditor.js'],
-#     'init_template': 'djrichtextfield/init/ckeditor.js',
-#     'settings': {  # CKEditor
-#         'toolbar': [
-#             {'items': ['Format', '-', 'Bold', 'Italic', '-',
-#                        'RemoveFormat']},
-#             {'items': ['Link', 'Unlink', 'Image', 'Table']},
-#             {'items': ['Source']}
-#         ],
-#         'format_tags': 'p;h1;h2;h3',
-#         'width': 700
-#     }
-# }
 DJRICHTEXTFIELD_CONFIG = {
-    'js': ['//cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js'],
-    'init_template': 'djrichtextfield/init/tinymce.js',
-    'settings': {
-        'menubar': False,
-        'plugins': 'link image',
-        'toolbar': 'bold italic | link image | removeformat',
+    'js': ['//cdn.ckeditor.com/4.14.0/standard/ckeditor.js'],
+    'init_template': 'djrichtextfield/init/ckeditor.js',
+    'settings': {  # CKEditor
+        'toolbar': [
+            {'items': ['Format', '-', 'Bold', 'Italic', '-',
+                       'RemoveFormat']},
+            {'items': ['Link', 'Unlink', 'Image', 'Table']},
+            {'items': ['Source']}
+        ],
+        'format_tags': 'p;h1;h2;h3',
         'width': 700
     }
 }
+# DJRICHTEXTFIELD_CONFIG = {
+#     'js': ['//cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js'],
+#     'init_template': 'djrichtextfield/init/tinymce.js',
+#     'settings': {
+#         'menubar': False,
+#         'plugins': 'link image',
+#         'toolbar': 'bold italic | link image | removeformat',
+#         'width': 700
+#     }
+# }
 
 
 # db = dj_database_url.config(conn_max_age=500)
